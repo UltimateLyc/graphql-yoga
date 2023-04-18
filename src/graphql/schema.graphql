@@ -1,5 +1,13 @@
 type Query {
+    getEmployees:[Employee]
+}
 
+type Employee {
+    _id: ID
+    name: String
+    age: Int
+    position: String
+    code: String
 }
 
 """ type Mutation {

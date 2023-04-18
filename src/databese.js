@@ -12,3 +12,5 @@ export async function connect() {
         return console.log('Something went wrong !!!', error)   
     }
 }
+
+//mongodb+srv://UltimateLyc:Lyc941204.@cluster0.a3v0quc.mongodb.net/mongodbgraphql?retryWrites=true&w=majority
